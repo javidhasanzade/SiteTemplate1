@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    background: yellow;
+}
+
+body {
+    margin: 0;
+    background: #efefef;
+}
+
+header {
+    padding: 30px;
+    background: orange;
+    text-align: center;
+    font: bold 2em Arial;
+    color: #fff;
+    text-shadow: 0 0 2px black;
+}
+
+main {
+    min-height: 500px;
+    width: 75%;
+    background: #fff;
+    float: left;
+    padding: 20px 30px;
+}
+
+main h2 {
+    font: bold 1.6em Arial;
+    color: #666;
+    padding: 0 0 0 40px;
+}
+
+main p {
+    text-align: justify;
+    font: .9em/1.5 Tahoma;
+    color: #333;
+    text-indent: 40px;
+}
+
+main img {
+    width: 300px;
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+nav {
+    
+    width: 25%;
+   
+    float: left;
+}
+
+nav p {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    margin: 5px 10px;
+    padding: 20px;
+    font: bold 1.2em Arial;
+    color: #FFF;
+    text-decoration: none;
+    background: orange;
+    text-align: center;
+    border-radius: 10px;
+}
+
+nav ul li a:hover {
+    color: orange;
+    background: rgba(255, 255, 255, .8);
+}
+
+footer {
+    clear: both;
+    padding: 10px;
+    background: red;
+    font: .7em Arial;
+    color: #fff;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    main, nav {
+        width: 100%;
+    }
+}
